@@ -1,0 +1,43 @@
+{
+  "summary": {
+    "overall_flag": "CRITICAL",
+    "critical_alert": true,
+    "critical_count": 2,
+    "abnormal_count": 0,
+    "borderline_count": 0,
+    "normal_count": 0
+  },
+  "interpretations": [
+    {
+      "test_code": "HB",
+      "test_name": "Hemoglobin",
+      "value": 6.2,
+      "unit": "g/dL",
+      "status": "LOW",
+      "severity": "CRITICAL",
+      "reference_range": "13.5 - 17.5 g/dL",
+      "explanation": "This result is outside the safe range and requires immediate medical attention.",
+      "why_it_matters": "Values at this level may indicate a serious medical condition.",
+      "next_steps": "Seek urgent medical attention immediately. Contact your healthcare provider or go to the nearest emergency facility."
+    },
+    {
+      "test_code": "FBG",
+      "test_name": "Fasting Blood Glucose",
+      "value": 450,
+      "unit": "mg/dL",
+      "status": "HIGH",
+      "severity": "CRITICAL",
+      "reference_range": "70 - 99 mg/dL",
+      "explanation": "This result is outside the safe range and requires immediate medical attention.",
+      "why_it_matters": "Values at this level may indicate a serious medical condition.",
+      "next_steps": "Seek urgent medical attention immediately. Contact your healthcare provider or go to the nearest emergency facility."
+    }
+  ],
+  "warnings": {
+    "unsupported_tests": [
+      "TSH",
+      "VITAMIN_D"
+    ]
+  },
+  "disclaimer": "This information is for educational purposes only and does not replace professional medical advice, diagnosis, or treatment. Always consult a qualified healthcare provider with questions about your health or lab results."
+}

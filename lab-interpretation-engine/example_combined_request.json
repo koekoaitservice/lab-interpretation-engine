@@ -1,0 +1,28 @@
+{
+  "patient": {
+    "age": 65,
+    "sex": "male"
+  },
+  "results": [
+    {
+      "test_code": "HB",
+      "value": 6.2,
+      "unit": "g/dL"
+    },
+    {
+      "test_code": "TSH",
+      "value": 4.5,
+      "unit": "mIU/L"
+    },
+    {
+      "test_code": "FBG",
+      "value": 450,
+      "unit": "mg/dL"
+    },
+    {
+      "test_code": "VITAMIN_D",
+      "value": 25,
+      "unit": "ng/mL"
+    }
+  ]
+}
